@@ -1,0 +1,53 @@
+body {
+    height: 100%;
+    background-color: darkslategray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.page {
+    padding-top: 50px;
+}
+
+.gamebox {
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    background-color: floralwhite;
+}
+
+button.pickme {
+    outline: none;
+    background-color: darkslategray;
+    border: none;
+    border-radius: 10px;
+    width: 170px;
+    height: 50px;
+    color: white;
+    transition-duration: 0.2s;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 10px;
+    cursor: pointer;
+    border: 2px solid;
+    border-color: darkslategray;
+    box-shadow: 0 5px #999;
+}
+
+button.pickme:hover {
+    background-color: #e7e7e7;
+    color: darkslategray;
+
+}
+
+button.pickme:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+}
+
+button.pickme:disabled, button[disabled] {
+    background-color: #b5c1c4;
+    color: #829499;
+    border-color: #829499;
+}
