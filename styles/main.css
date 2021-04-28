@@ -15,6 +15,13 @@ body {
     background-color: floralwhite;
 }
 
+.monsterInfo {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
 button.pickme {
     outline: none;
     background-color: darkslategray;
