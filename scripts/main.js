@@ -30,14 +30,16 @@ let NPCTeam = [
     {}
 ];
 
-let playerIsReady="no";
+let playerIsReady=false;
+
+let playerTeamSlotSelected=0;
 
 // ###############################################################
 // ##                          View                             ##
 // ############################################################### <div></div>
 
 updateView();
-function updateView() {
+function updateView() { // make button change class when clicked instad of "translate" movement on click. looks better in view.
     document.getElementById('app').innerHTML = `
     <div class="page">
         <div class="gamebox">
@@ -77,10 +79,14 @@ function pictureBox() {
             <div>HP: ${currentSelection.Health}</div>
             <div>MP: ${currentSelection.MagicPoints}</div>
             <div>Attack: ${currentSelection.AttackMin} - ${currentSelection.AttackMax}</div>
-            <div>Crit Chance: ${currentSelection.CritChance}</div>
-            <div>Dogde Chance: ${currentSelection.DodgeRate}</div>
+            <div>Crit Chance: ${currentSelection.CritChance} %</div>
+            <div>Dogde Chance: ${currentSelection.DodgeRate} %</div>
             <div>Element: ${currentSelection.Element}</div>
             <div>Affinity: ${currentSelection.Affinity}</div>
+        </div>
+
+        <div>
+
         </div>
     
     </div>
@@ -91,4 +97,13 @@ function pictureBox() {
 function selectMonster(s) {
     currentSelection=Monster[s];
     updateView();
+}
+
+function addToTeam() { // maybe not change slot if player has selected it?
+    if (playerTeamSlotSelected==3) {return;}
+    if (currentSelection.id!=0) {
+        PlayerTeam[playerTeamSlotSelected]=currentSelection;
+        playerTeamSlotSelected++;
+    }
+
 }
