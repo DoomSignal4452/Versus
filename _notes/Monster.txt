@@ -24,3 +24,33 @@ Affinity: Plant, Cold, Inorganic, Normal
 8. Fire/Normal - (Meercat)
 
 9. Water/Inorganic - (Bird)
+
+
+New idea: 
+            Mineral instead of Stone
+
+New Elements: 
+    Elements: Water, Wind, Wood, Mineral, Aether, Normal
+
+    Affinity: Heat, Cold, Metal, Void,  Neutral
+
+
+Ghosts: Aether or Void
+    - Thinks void, as is lack of something
+
+    - or both Aether as nature and Void as affinity.
+        - Ghosts will have one of them as depending on how it came to be..
+        - Neutral affinity monsters can gain "ghost" status by aquring void affinity, no need for death.
+        - Death causes a chance for monster to "return" with "Aether" nature and their original affinity.
+        - Aether + Neutral affinity monster should be available natrually. 
+        - Brutality sould result in a hostile ghost with Aether + Void affinity, very dangerous.
+    
+    - Worldbuilding: Death is seen as a change of life, revered and cherished, not something to dread.
+        - Peacfull passing releases the aether/soul back to nature, many finds themself living as ghosts for a long time before dispering willingly.
+            - Settelments lives alongside these ghost, having graves and memorials to celebrate their ghostly loved ones.
+                - mischiveous ghots of the young.
+                - protective ghosts of warriors.
+                - ghost helping crops grow.
+
+        - A brutal passing will almost always disperse the soul of the dying immideatly.
+            - If it does not, a vindictive Aether/Void monster is created.
