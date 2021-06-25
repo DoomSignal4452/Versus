@@ -6,11 +6,23 @@ const model = {
         },
 
         teamSelect: {
-            current: [
-                { id: 00, Species: 'Choose a monster',  Health: 0, MagicPoints: 0,  AttackMin: 0, AttackMax: 0,  CritChance: 0, DodgeRate: 0, Element: 'none',     Affinity: 'none',     Picture: "picWIP.png"},
-            ],
+            current: 
+                { 
+                    id: 00,
+                    Species: 'Choose a monster',
+                    Health: 0,
+                    MagicPoints: 0,
+                    AttackMin: 0,
+                    AttackMax: 0,
+                    CritChance: 0,
+                    DodgeRate: 0,
+                    Element: 'none',
+                    Affinity: 'none',
+                    Picture: "picWIP.png"
+                },
 
-            teamSlot: 0,
+            teamSlot: null,
+            playerReady: false,
 
         }
     },
@@ -24,7 +36,7 @@ const model = {
 
         ],
 
-        playerReady: false,
+        
 
 
     }
